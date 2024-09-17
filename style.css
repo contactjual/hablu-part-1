@@ -1,0 +1,129 @@
+* {
+    font-size: 30px;
+}
+
+
+
+/* m list  */
+ol {
+    background-color: rgb(220, 220, 220);
+    /* list-style: none; */
+    list-style-position: inside;
+}
+
+ol li:nth-child(2n) {
+    color: red;
+    padding-bottom: 20px;
+}
+
+ol li:nth-child(2n+1) {
+    color: green;
+    padding-bottom: 20px;
+}
+
+
+/* d. Backgrounds */
+.d-backg {
+    color: rgb(0, 5, 1);
+    background-image: url(img/nice.jpg);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
+/* e. Borders */
+.d-backg p {
+    border: 5px solid yellow;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+
+/* f. Margins */
+.d-backg p {
+    /* margin-top: 100px; */
+    margin: 100px;
+}
+
+
+/* g. Paddings  */
+.d-backg p {
+    padding: 50px;
+}
+
+
+
+/* h. Outlines  */
+.d-backg p {
+    outline: 5px solid black;
+    outline-offset: 20px;
+}
+
+
+/* i. Text Style */
+.d-backg p {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 2px goldenrod;
+    text-indent: 50px;
+    text-overflow: clip;
+    word-spacing: 10px;
+    line-height: 50px;
+    white-space: normal;
+    letter-spacing: 5px;
+}
+
+
+/* j. Fonts */
+.d-backg p {
+    font-family: "Roboto", sans-serif;
+    /* font-weight: 900; */
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/* k. icon */
+.icon {
+    text-align: center;
+}
+.icon i {
+    font-size: 50px;
+    color: goldenrod;
+}
+
+/* m. link  */
+.link a:active {
+    color: rgb(10, 190, 40);
+}
+.link a:visited {
+    color: rgb(215, 11, 11);
+}
+
+
+/* n. table */
+.tbl1 table {
+    width: 50%;
+    margin: 100px auto;
+}
+table, tr, th, td {
+    border: 2px solid rgb(174, 29, 10);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.tbl2 table {
+    width: 50%;
+    margin: 100px auto;
+    /* border-spacing: 10px; */
+    
+}
